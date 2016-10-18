@@ -1,9 +1,17 @@
 all: w_git
 
-%.html:Q: %.md
+%.html:Q:	%.md
 	pandoc \
 		--to=dzslides \
 		--standalone \
+		--output=$target \
+		$prereq
+
+%.pdf:Q:	%.md
+	pandoc \
+		--to=beamer \
+		--latex-engine=xelatex \
+		-V theme:metropolis \
 		--output=$target \
 		$prereq
 
