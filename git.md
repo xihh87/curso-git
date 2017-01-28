@@ -61,10 +61,8 @@ sudo apt install git gitg meld fish
 Si no hemos usado git nunca:
 
 ```
-git config --global user.name \
-    'Joshua Haase'
-git config --global user.email \
-    'jihaase@inmegen.gob.mx'
+git config --global user.name 'Joshua Haase'
+git config --global user.email 'jihaase@inmegen.gob.mx'
 git config --global merge.tool meld
 ```
 
@@ -192,6 +190,16 @@ alias gcm="git commit -m"
 alias ga="git add"
 alias gp="git push"
 alias gb="git branch"
+```
+
+---
+## Vivir sin preocupaciones
+
+Agregar a `~/.bashrc`:
+
+```
+alias gl="git log"
+alias glc="git log --cc"
 ```
 
 ---
