@@ -67,7 +67,9 @@ git config --global merge.tool meld
 ```
 
 ---
- ## Usar git
+
+## Usar git
+
 Generar un repo desde cero:
 
 ```
@@ -193,6 +195,7 @@ alias gb="git branch"
 ```
 
 ---
+
 ## Vivir sin preocupaciones
 
 Agregar a `~/.bashrc`:

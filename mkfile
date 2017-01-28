@@ -1,13 +1,13 @@
 all: w_git
 
-%.html:Q:	%.md
+%.html:	%.md
 	pandoc \
 		--to=dzslides \
 		--standalone \
 		--output=$target \
 		$prereq
 
-%.pdf:Q:	%.md
+%.pdf:	%.md
 	pandoc \
 		--to=beamer \
 		--latex-engine=xelatex \
