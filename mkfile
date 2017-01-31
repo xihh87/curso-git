@@ -1,4 +1,4 @@
-all: w_git
+all: git.pdf
 
 %.html:	%.md
 	pandoc \

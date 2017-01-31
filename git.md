@@ -6,15 +6,19 @@
 
 ## ¿Por qué necesitamos un control de versiones?
 
-\
-![](http://funnypicture.org/wallpaper/2015/04/funny-black-cat-pictures-2-background-wallpaper.jpg)
+![Un problema común.](tesis.png)
 
 ---
 
-## Git toma fotos de tu trabajo (cada nodo es una foto)
+## ¿Por qué necesitamos un control de versiones?
 
-\
-![](arbol-git.png )
+![Es bien sabido que los gatos son malvados.](http://funnypicture.org/wallpaper/2015/04/funny-black-cat-pictures-2-background-wallpaper.jpg)
+
+# ¿Cómo funciona?
+
+## Git toma fotos de tu trabajo
+
+![Cada nodo es una foto.](arbol-git.png )
 
 ---
 
@@ -51,7 +55,7 @@
 ## Instalar git (y amigos)
 
 ```
-sudo apt install git gitg meld fish
+sudo apt install git git-flow gitg meld fish
 ```
 
 ---
@@ -175,7 +179,7 @@ ssh-keygen \
 	-f ~/.ssh/github
 ```
 
-Y subirlas a github.com:
+Y subirlas a github.com.
 
 ---
 
@@ -228,3 +232,6 @@ alias glc="git log --cc"
 
 - [Listado de tutoriales](http://sixrevisions.com/resources/git-tutorials-beginners/ ) \
     <http://sixrevisions.com/resources/git-tutorials-beginners/>
+
+- [Una propuesta de flujo de trabajo con ramas](http://nvie.com/posts/a-successful-git-branching-model/ ) \
+    <http://nvie.com/posts/a-successful-git-branching-model/>
