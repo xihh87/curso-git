@@ -12,7 +12,7 @@
 
 ## ¿Por qué necesitamos un control de versiones?
 
-![Es bien sabido que los gatos son malvados.](http://funnypicture.org/wallpaper/2015/04/funny-black-cat-pictures-2-background-wallpaper.jpg)
+![Es bien sabido que los gatos son malvados.](http://25.media.tumblr.com/tumblr_m9dggrHw601rtd3yfo1_500.png)
 
 # ¿Cómo funciona?
 
