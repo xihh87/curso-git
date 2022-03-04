@@ -1,6 +1,8 @@
-% Uso básico de git ![](http://www.unixstickers.com/image/cache/data/stickers/git/git.sh-600x600.png){height="3cm"}
-% Joshua Haase
-% 2016-10-17 - INMEGEN
+---
+title: Taller básico de `git` ![](http://www.unixstickers.com/image/cache/data/stickers/git/git.sh-600x600.png){height="3cm"}
+author: Haase
+date: 2021-08-15
+---
 
 # ¿Por qué git?
 
